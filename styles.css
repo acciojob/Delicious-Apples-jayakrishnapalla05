@@ -1,1 +1,123 @@
-/* your code here */
+body{
+	background-color:#10a110;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+}
+.photo-main{
+	background-color:greenyellow;
+	padding: 5px;
+    position: relative;
+	
+}
+.photo-container{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.photo-main img {
+  position: relative;
+  left: -60px;
+}
+
+.photo-album{
+  padding: 10px;
+
+  background-color: white;
+ }
+ .photo-album > ul {
+  display: flex;
+   list-style-type: none;
+   gap: 35px;
+}
+
+.photo-album > ul li {
+   border: 1px solid rgb(221, 216, 216);
+   margin-left: -30px;
+	
+}
+
+.product__photo {
+  position: relative;
+  left: -5px;
+  width: 300px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.product__info {
+  position: absolute;
+  left: 60px;
+  z-index: 1;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 550px;
+  height: 600px;
+  top: 0;
+	border-radius:10px;
+}
+
+.title{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+h1{
+  font-size: 30px;
+}
+#code{
+ color: rgb(158, 154, 154);
+}
+.price{
+  margin-left: 300px;
+  margin-top: 30px;
+  color: red;
+  font-size: 20px;
+ margin-bottom: 40px;
+}
+.price span{
+
+  font-size: 50px;
+}
+.variant{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+ h3{
+  color: rgb(167, 162, 162);
+}
+.variant > ul{
+  display: flex;
+  list-style-type: none;
+  gap:5px;
+
+}
+.variant > ul li img{
+
+  width: 40px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.variant > ul li img:hover{
+  border: 1px solid black;
+}
+.description{
+  margin-left: 300px;
+  margin-top: 30px;
+}
+button{
+  cursor: pointer;
+  margin-top: 2px;
+  padding: 15px;
+  width: 150px;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  color: white;
+  font-size:15px;
+  border-radius: 10px;
+}
